@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv
+venv/
+
+# VSCode or PyCharm specific
+.vscode/
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# MacOS files
+.DS_Store
+
+# Logs
+*.log
+
+# Virtual environment folders
+env/
+ENV/
