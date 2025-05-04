@@ -1,27 +1,28 @@
-# Python
+# Python-related
 __pycache__/
 *.py[cod]
-*.egg
 *.egg-info/
-dist/
-build/
-.env
-.venv
+*.egg
+*.pyo
+*.pyd
+
+# Virtual environments
 venv/
-
-# VSCode or PyCharm specific
-.vscode/
-.idea/
-
-# Jupyter Notebook
-.ipynb_checkpoints/
-
-# MacOS files
-.DS_Store
-
-# Logs
-*.log
-
-# Virtual environment folders
 env/
 ENV/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and results
+logs/
+results/
+
+# Conda environment files (optional, include env.yml instead)
+*.conda
+
+# VSCode settings
+.vscode/
+
+# OS-generated
+.DS_Store
