@@ -7,7 +7,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'notebook')))
 
 # Import the validator class from your backend file
-from courtroom_ai_validating_witness_statements import WitnessStatementValidator
+from verdict_iq import WitnessStatementValidator
 
 
 # Sample training data
@@ -90,7 +90,7 @@ elif page == "Documentation":
 
     ### How It Works
     - Uses NLP and machine learning
-    - Trained on annotated data (e.g., HateXplain, legal text)
+    - Trained on annotated data (from Hugging Face's AUEB-NLP/lar-echr dataset )
     - Outputs a label for each input statement
     
     ### Features
@@ -104,6 +104,6 @@ elif page == "Documentation":
     - Click on the 'analyse' button to get the verdict
     - To check the full response of why it was detected so, click on the 'Show JSON response' button
                 
-    *Developed as part of a Cybersecurity + NLP project.*
+    *Developed as part of a NLP project by Kruti Newalkar.*
     """)
 
