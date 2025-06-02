@@ -16,7 +16,11 @@
 
 ## 📽️ Demo
 
-![VerdictIQ Demo](assets/demo.mp4)
+
+
+https://github.com/user-attachments/assets/6fa68eb7-b583-4498-9b92-27a19e28f435
+
+
 
 ---
 
